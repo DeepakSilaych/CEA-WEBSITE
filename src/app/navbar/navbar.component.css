@@ -1,0 +1,67 @@
+.brandname{
+    font-size:18px;
+    font-weight: 500;
+}
+
+.nav-lin{
+    color: black;
+    padding: 7px 10px;
+}
+
+.nav-lin:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+}
+
+.nav-active{
+   background-color: rgba(0,0,0,0.8);
+   color: white;
+}
+
+.nav-active:hover{
+    color: white;
+}
+
+.first {
+	left: 1000px;
+}
+
+.navbuttons{
+	justify-content: right;
+    align-content: right;
+    font-size: 18px;
+}
+
+.navbar{
+    fill-opacity: 0.7;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    box-shadow: 0px 1px 10px black;
+}
+
+.navbuttons{
+    font-size: 18px;
+}
+
+
+@media(max-width: 992px){
+    .navbuttons{
+        font-size: 18px;
+    } 
+}
+
+@media(max-width: 768px){
+    .navbuttons{
+        font-size: 15px;
+    } 
+}
+
+@media(max-width: 576px){
+    .navbuttons{
+        font-size: 12px;
+    } 
+}
+
+
+

@@ -1,0 +1,129 @@
+.main{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0px;
+
+}
+.container1 {
+    padding-left:6%;
+    padding-right: 6%;
+    padding-bottom: 0px;
+}
+
+
+p {
+    
+    color: rgb(0, 0, 0);
+}
+
+
+h4{
+    font-family: 'Rakkas', cursive;
+    color: seashell;
+    text-align: center;
+    font-size: 350%;
+    font-weight: 400;
+    padding-top: 10px
+    
+}
+h6 {
+    font-family: 'Rakkas', cursive;
+    color: seashell;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 400;
+    
+}
+
+
+
+  
+
+    @media (max-width: 992px) {
+
+        h4,h6 {
+            font-size: 300%;
+        }
+
+    }
+
+  
+   
+
+    @media (max-width: 768px) {
+
+        h4,h6 {
+            font-size: 300%;
+        }
+
+        
+    }
+
+    @media (max-width: 576px) {
+
+        h4,h6 {
+            font-size: 150%;
+        }
+        }
+
+.profiles{
+    padding-top: 20px;
+
+}       
+        
+        
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #3b5998;
+    text-decoration: none;
+    color: white;
+}
+
+.progress {
+    height: 10px;
+}
+
+.imgs{
+    text-align: center;
+    padding: 10px 60px 0 60px;
+}
+
+.outer{
+    align-content: center;
+    justify-content: center;
+}
+
+.mb-0{
+    font-size: 18px;
+    color: royalblue;
+}
+
+.card{
+    background-color: whitesmoke;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .names{
+        font-size: 15px;
+    }
+}

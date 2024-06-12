@@ -1,0 +1,48 @@
+<div style="height: 20px;"></div>
+<!--
+  <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
+-->
+
+<section id="gallerysection">
+  <div class="gallerywritten">
+    <div class="gallerymaking" id="place2">
+      <div style="background-color: rgba(0, 0, 0, 0.8); width: 100%; margin-top: 30px; margin-bottom: 30px;">
+        <h4 class="display-4">Gallery</h4>
+      </div>
+
+      <div class="tabarea">
+        <ul class="nav nav-tabs justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="202324" routerLinkActive="active">2023 - 2024</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" routerLink="202223" routerLinkActive="active">2022 - 2023</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="202122" routerLinkActive="active">2021 - 2022</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="201920" routerLinkActive="active">2019 - 2020</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="201819" routerLinkActive="active">2018 - 2019</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="201718" routerLinkActive="active">2017 - 2018</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mainrow">
+        <div class="tab-content content">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
+<div class="dwdw1 visibleyolg" style="padding-top: 2%; background-color: rgba(177, 175, 175, 0.11);">
+  <router-outlet></router-outlet>
+</div>
+-->

@@ -1,0 +1,448 @@
+h3 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 450%;
+    font-weight: 400;
+    
+}
+
+hr {
+    border: 3px solid rgba(255, 0, 0, 0.856);
+    width: 5%;
+    border-radius: 1443px;
+    
+}
+
+div.homelink {
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.fa-home {
+    font-size: 40px;
+    margin-left: -9px;
+}
+
+
+h4 {
+    font-family: 'Rakkas', cursive;
+    color: seashell;
+    text-align: center;
+    font-size: 350%;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+    
+}
+/*.box{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+   }*/
+   .box figure{
+    height: 100%;
+    /*margin: 0;
+    padding: 0;*/
+   }
+   .box figure img{
+    width: 100%;
+   }
+   .box figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    padding-top: 12%;
+    z-index: 100;
+    opacity: 0;
+    transition-delay: .3s;
+    transition: .5s;
+   }
+   .box figcaption:hover{
+    opacity: 1;
+   }
+/*   .box figure:before,.box figure:after{
+    content: '';
+    position: absolute;
+    transition: .5s ease-in-out;
+    height: 300%;
+    width: 300%;
+    background: black;
+   }
+   .box figure:before{
+   
+    background: rgba(10, 10, 10, 0.3);
+    transform: skew(45deg) translateX(100%);
+   }
+   .box figure:after{
+    left: 0;
+    top: 0;
+    background: rgba(180, 165, 165, 0.3);
+    transform: skew(-135deg) translateX(-100%);
+   }
+   .box:hover figure:before{
+    transform: skew(45deg) translateX(0%);
+   }
+   .box:hover figure:after{
+    transform: skew(-135deg) translateX(0%);
+   }*/
+
+
+   .gallerywritten {
+   
+  /* margin-left: -50px;
+   padding-left: 10%;
+   padding-right: 6%;
+   padding-top: 2%;
+   border-radius: 12px;
+   border-left-color: rgb(0, 0, 0);*/
+
+  /* margin-left: -50px;*/
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background: rgba(177, 175, 175, 0.11);
+   
+
+
+}
+
+#gallerysection {
+
+    background: rgba(255, 255, 255, 0.11);
+    z-index: +100;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+
+
+
+
+
+
+.nav-link:active {
+    background-color: rgba(177, 175, 175, 0.11);
+}
+
+.mainrow {
+   /* padding-left: 18%;
+    margin-left: 0px;
+    border-right: 20px;*/
+    background-color: white;
+    padding: 2%;
+   
+
+    
+    
+   
+}
+
+
+.content {
+    text-align: center;
+    
+}
+
+.cardcolumn {
+    /*margin-left: 1%;
+    margin-right: 1%;*/
+    margin-top: 1%;
+    margin-bottom: 1%;
+   
+}
+
+.card {
+  
+    height: 90%;
+}
+
+h6 {
+    font: bold 165%/50% "Lucida Grande";
+    position: relative;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px gray;
+    font-size: 160%;
+  }
+
+  .linksarea {
+      padding: 1%;
+      
+      min-height: 50vh;
+  }
+
+
+
+
+  div.scrollmenu {
+    /* z-index: 55325;*/
+  background-color: white;
+   overflow: auto;
+   white-space: nowrap;
+ /* border-top: solid 1px;
+   bottom: 0;*/
+  /* position: fixed;*/
+  visibility: hidden;
+}
+
+.visibleyosm {
+    visibility: hidden;
+    display: none;
+
+
+}
+
+.visibleyolg {
+    visibility: visible;
+    
+}
+
+
+  @media (max-width: 1500px) {
+
+    .box figcaption{
+        padding: 30px 10px;
+
+    }
+
+    h6 {
+        font-size: 120%;
+    }
+
+  }
+
+
+  
+
+
+
+  @media (max-width: 992px) {
+
+    h6 {
+        font-size: 130%;
+    }
+    h3 {
+        font-size: 300%;
+    }
+
+    .box figcaption{
+        padding: 30px 10px;
+
+    }
+
+    .gallerywritten {
+   
+       
+         /* padding-left: 3%;
+          padding-right: 3%;*/
+          padding-top: 2%;
+          padding-bottom: 1%;
+         
+      
+      
+      }
+
+      div.homelink {
+        width: 50px;
+        border-radius: 50%;
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .fa-home {
+        font-size: 30px;
+        margin-left: -7px;
+    }
+
+    .visibleyolg {
+        margin-top: 20%;
+    }
+
+    h4 {
+        font-size: 300%;
+    }
+      
+
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    h6 {
+        font-size: 120%;
+    }
+    h3 {
+        font-size: 300%;
+    }
+
+    .mainrow {
+       
+        padding-top: 4%;
+       
+        background-color: white;
+        
+        
+       
+    }
+
+    hr {
+        border: 2px solid rgba(255, 0, 0, 0.856);
+        width: 13%;
+        border-radius: 1443px;
+        
+    }
+
+    h4 {
+        font-size: 300%;
+    }
+    
+
+    
+
+}
+
+@media (max-width: 576px) {
+
+
+    h6 {
+        font-size: 110%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    h4 {
+            font-size: 150%;
+        }
+    
+
+    .mainrow {
+       /* padding-left: 35%;
+        padding-right: -10%;*/
+        padding-top: 2%;
+      /*  margin-right: 50px;
+        margin-left: 0px;*/
+        
+        background-color: white;
+        
+        
+       
+    }
+    .gallerymaking {
+        padding-top: 2%;
+        /*padding-left: 12%;*/
+    }
+
+    hr {
+        border: 1px solid rgba(255, 0, 0, 0.856);
+        width: 8%;
+        border-radius: 1443px;
+        
+    }
+
+    img {
+       display: none;
+    }
+
+   .figinxs {
+       
+       color:rgba(177, 175, 175, 0.11);
+       border-color: black; 
+       text-align: center;
+       
+   }
+
+  
+
+   .pics {
+       display:none;
+   }
+
+   .yocolumns {
+       text-align: center;
+   }
+
+   
+
+   a {
+       text-decoration: none;
+   }
+
+   
+
+ 
+
+
+
+
+  div.scrollmenu {
+     /* z-index: 55325;*/
+   background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  /* border-top: solid 1px;
+    bottom: 0;*/
+   /* position: fixed;*/
+   visibility: visible;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgba(177, 175, 175, 0.11);
+}
+
+/*.visibleyosm {
+    visibility: visible;
+    
+}*/
+
+/*.visibleyolg {
+    visibility: hidden;
+    display: none;
+    padding-top:1%
+}*/
+
+
+div.homelink {
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.fa-home {
+    font-size: 20px;
+    margin-left: -6px;
+    color: black;
+}
+  
+
+
+
+.visibleyolg {
+    margin-top: -70%;
+}
+
+
+}
+

@@ -1,0 +1,340 @@
+.container-fluid {
+    width: 100%;
+    background-color:rgb(255, 255, 255) /* #5E4485 */;
+    padding-left: 3%;
+    padding-right: 3%;
+   /* padding-top: 2%;*/
+    color: rgb(0, 0, 0);
+    padding-bottom: 1%;
+    /*margin-bottom: -30px;*/
+ 
+ }
+ 
+ .fhr {
+     border:none;
+     height: 20px;
+        
+       height: 50px;
+       margin-top: 0;
+       border-bottom: 1px solid #1f1209;
+       box-shadow: 0 20px 20px -20px #333;
+ }
+ 
+ .area {
+     padding-left: 5%;
+     padding-right: 5%;
+     padding-top: 5%;
+ }
+ 
+ .areacontact {
+     padding-top: 1%;
+ }
+ 
+ hr.hr1 {
+     border-top: 1px solid #b4b4b4 ;
+ }
+ 
+ hr.hr2 {
+    
+     border-style:solid rgb(104, 102, 102);
+   
+ }
+ 
+ h4{
+     color: black !important;
+     text-align: center;
+     font-size: 105%;
+     font-family: 'Playfair Display', serif;
+ }
+ 
+ .social a{
+     
+     padding: 10px;;
+ 
+ }
+ 
+ 
+ 
+ .fa-facebook-f {
+   
+     font-size: 20px;
+     color: rgb(65, 64, 64);
+    
+ }
+ 
+ .fa-facebook-f:hover {
+   
+    color:  #3b5998;
+    text-decoration: none;
+ }
+ 
+ .fa-youtube-play {
+   
+   font-size: 20px;
+   color: rgb(65, 64, 64);
+ }
+ 
+ .fa-youtube-play:hover {
+   
+     color:  #FF0000;
+     text-decoration: none;
+  }
+ 
+ .fa-linkedin {
+   
+     font-size: 20px;
+     color: rgb(65, 64, 64);
+ }
+ 
+ .fa-linkedin:hover {
+   
+     color:  #0077B5;
+     text-decoration: none;
+  }
+ 
+  .fa-instagram {
+    
+      font-size: 20px;
+      color: rgb(65, 64, 64);
+  }
+  
+  .fa-instagram:hover {
+    
+      color:  #DD2A7B;
+      text-decoration: none;
+   }
+ 
+ a.exlinks {
+     text-decoration: none;
+     padding-top: -50%;
+     font-size: 100%;
+     font-family: cinzel,serif;
+     color: #000;
+ 
+ }
+ a.exlinks:hover {
+     color: rgb(133, 133, 133);
+ }
+ 
+ b.bhead {
+     color: #000;
+     font-size: 100%;
+ 
+ }
+ 
+ i {
+     font-size: 90%;
+ }
+ 
+ 
+ agm-map {
+     height: 250px;
+     width: 100% ;
+     position:relative;
+   }
+ 
+   @media (max-width: 992px) {
+     agm-map {
+         height: 400px;
+     }
+   }
+ 
+   @media (max-width: 768px) {
+     agm-map {
+         height: 350px;
+     }
+ }
+ 
+ @media (max-width: 576px) {
+     agm-map {
+         height: 250px;
+     }
+ }
+ 
+ @media (max-width: 992px){
+ 
+     h4{
+         font-size: 120%;
+     }
+ 
+     .fa-facebook-f {
+         font-size: 140%;
+ 
+     }
+     .fa-youtube-play {
+         font-size: 140%;
+     }
+     .fa-linkedin {
+         font-size: 140%;
+     }
+     .fa-instagram {
+         font-size: 140%;
+     }
+ 
+     .social a{
+         padding: 5%;
+      }
+ 
+      b.bhead {
+          font-size: 95%;
+      }
+ 
+      i {
+          font-size: 85%;
+      }
+      .pf {
+         font-size: 85%;
+     }
+ 
+      a.exlinks {
+          font-size: 100%;
+      }
+ 
+      hr.hr1 {
+         border-top: 1px solid #b4b4b4 ;
+     }
+     
+     .container-fluid {
+         width: 100%;
+         padding: 6%;
+     }
+ 
+     .area {
+         padding-bottom: 5%;
+         padding: 3%;
+         padding-top: 1%;
+     }
+   
+ 
+ 
+ 
+ 
+     
+ 
+ }
+ 
+ @media (max-width: 768px){
+ 
+ 
+     h4{
+         font-size: 115%;
+     }
+ 
+     .fa-facebook-f {
+         font-size: 140%;
+ 
+     }
+     .fa-youtube {
+         font-size: 140%;
+     }
+     .fa-linkedin-in {
+         font-size: 140%;
+     }
+ 
+     .social a{
+         padding: 5%;
+      }
+ 
+      b.bhead {
+          font-size: 95%;
+      }
+ 
+      i {
+          font-size: 85%;
+      }
+      .pf {
+         font-size: 85%;
+     }
+ 
+      a.exlinks {
+          font-size: 100%;
+      }
+ 
+      hr.hr1 {
+         border-top: 1px solid #b4b4b4 ;
+     }
+     
+     .container-fluid {
+         width: 100%;
+         padding: 6%;
+     }
+ 
+     .area {
+         padding-bottom: 5%;
+         padding: 3%;
+         padding-top: 1%;
+     }
+   
+ 
+ 
+ 
+ 
+     
+ }
+ 
+ @media (max-width: 576px){
+ 
+     h4{
+         font-size: 100%;
+     }
+ 
+     .fa-facebook-f {
+         font-size: 120%;
+ 
+     }
+     .fa-youtube {
+         font-size: 120%;
+     }
+     .fa-linkedin-in {
+         font-size: 120%;
+     }
+ 
+     .social a{
+         padding: 5%;
+      }
+ 
+      
+ 
+      b.bhead {
+          font-size: 90%;
+      }
+ 
+      i {
+          font-size: 80%;
+      }
+ 
+      .pf {
+         font-size: 80%;
+     }
+ 
+ 
+      a.exlinks {
+          font-size: 90%;
+      }
+ 
+      hr.hr1 {
+         border-top: 1px solid #b4b4b4 ;
+     }
+     
+     .container-fluid {
+         width: 100%;
+         padding: 6%;
+     }
+ 
+     .area {
+         padding-bottom: 5%;
+         padding: 3%;
+         padding-top: 0.5%;
+     }
+   
+ 
+ 
+    
+ 
+     
+ 
+ 
+ 
+ 
+     
+ }
